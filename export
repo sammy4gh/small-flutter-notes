@@ -1,0 +1,10 @@
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;10r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[10;1H"~/.zshrc" [unix] 221L, 7715B[1;1H[38;5;130malias[m python=[31m"python3"[m
+[38;5;130malias[m k=[31m"kubectl"[m
+[38;5;130malias[m winex=[31m"explorer.exe ."[m
+[34m#alias ls='lsd'[m
+[38;5;130malias[m l=[31m'ls -l'[m
+[38;5;130malias[m la=[31m'ls -a'[m
+[38;5;130malias[m lla=[31m'ls -la'[m
+[38;5;130malias[m lt=[31m'ls --tree'[m
+[1m[7m~/.zshrc [unix] (08:03 14/12/2022)                                                                                                                                                                      198,1 91%[4;1H[?25h[?25l[m[10;199H^M[4;1H[10;199H  [4;1H[1;8r[8;1H
+[1;10r[10;1H[K[9;203H[1m[7m9,[4;1H[?25h[?25l[m[10;1HType  :qa  and press <Enter> to exit Vim[?5h[?25h[?5l[4;1H[?25l[?5h[?25h[?5l[?25l[?5h[?25h[?5l[?25l[?5h[?25h[?5l
