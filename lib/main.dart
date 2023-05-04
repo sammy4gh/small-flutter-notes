@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mynotes/constants/routes.dart';
 import 'package:mynotes/services/auth/auth_service.dart';
 import 'package:mynotes/view/login_view.dart';
-import 'package:mynotes/view/notes/new_note_view.dart';
+import 'package:mynotes/view/notes/create_update_note_view.dart';
 import 'package:mynotes/view/notes/notes_view.dart';
 import 'package:mynotes/view/register_view.dart';
 import 'package:mynotes/view/verify_email_view.dart';
@@ -11,14 +11,14 @@ main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MaterialApp(
     title: 'Flutter Demo',
-    theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
+    theme: ThemeData(primarySwatch: Colors.grey, useMaterial3: true),
     home: const HomePage(),
     routes: {
       loginRoute: (context) => const LoginView(),
       registerRoute: (context) => const RegisterView(),
       notesRoute: (context) => const NotesView(),
       verifyEmaiLRoute: (context) => const VerifyEmailView(),
-      newNoteRoute: (context) => const NewNoteView(),
+      createOrUpdateNoteRoute: (context) => const CreateUpdateNoteView(),
     },
   ));
 }
